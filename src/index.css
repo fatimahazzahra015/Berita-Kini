@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* Import Google Fonts: Inter, Poppins, dan Nunito Sans */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;700;900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+/* Set default font jika diinginkan */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Custom class untuk Nunito Sans */
+.font-nunito {
+  font-family: 'Nunito Sans', sans-serif;
+}
