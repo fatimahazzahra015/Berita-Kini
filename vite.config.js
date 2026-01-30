@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: process.env.VITE_PATH || '/Berita-Kini',
+  base: '/', 
   server: {
     proxy: {
       '/api-news': {
